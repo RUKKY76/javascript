@@ -1,0 +1,316 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: auto;
+}
+
+body{
+  background-color: hsl(216, 12%, 8%);
+  margin: 6rem;
+  
+}
+
+.main-box{
+  background-color: hsl(213, 19%, 18%);
+ padding: 2rem;
+ /* height: 20rem; */
+ width: 100%;
+ max-width: fit-content;
+ border-radius: 2rem;
+ margin: auto;
+ /* align-items: center; */
+}
+
+.text h1 {
+  color: white;
+  margin-top: 1rem;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+
+}
+
+.text p {
+  color: hsl(216, 12%, 54%);
+  margin-top: 1rem;
+  /* font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal; */
+}
+
+#submit-btn {
+  width: 100%;
+  padding: 0.7rem;
+  background-color: hsl(25, 97%, 53%);
+  border: none;
+  border-radius: 2rem;
+  color: white;
+  margin-top: 1rem;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+#number1{
+  background-color: hsl(216, 12%, 54%);
+  border-radius: 16rem;
+
+}
+
+
+.button-container button {
+  width:40px;
+  height: 40px;
+  border-radius: 100%;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  background-color: hsl(200, 4%, 14%);
+  color: hsl(217, 12%, 63%);
+  border: none;
+  box-shadow: none;
+  cursor: pointer;
+  margin-top: 1rem;
+
+}
+
+.button-container{
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 10px;
+  margin-top: 1rem;
+
+  
+}
+
+.star {
+  width: 35px;
+  height: 35px;
+  border-radius: 100%;
+  background-color: hsl(200, 4%, 14%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn:focus {
+  background-color:  hsl(217, 12%, 63%);
+  color: white;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color:  hsl(25, 97%, 53%);
+  color: white;
+  cursor: pointer;
+}
+
+#submit:hover {
+  background-color: white;
+  color:  hsl(25, 97%, 53%);
+  cursor: pointer;
+}
+
+#select{
+  color: hsl(25, 97%, 53%);
+  padding: 0.7rem;
+  background-color: hsl(200, 4%, 14%);
+  border: none;
+  border-radius: 2rem;
+  padding-left: 3rem;
+  padding-right: 3rem;
+  margin-left: 3rem;
+  margin-right: 4rem;
+  margin-bottom: 1.1rem;
+  
+}
+
+.thanks h1{
+  color: white;
+  padding-left: 7rem;
+  padding-bottom: 1.1rem;
+  margin-right: 7rem;
+}
+
+.thanks p {
+ color: hsl(216, 12%, 54%);
+ text-align: center;
+}
+
+.second-container{
+  background-color: hsl(213, 19%, 18%);
+  padding: 2rem;
+  /* height: 20rem; */
+  /* width: 20rem; */
+  border-radius: 2rem;
+  /* display: none; */
+  /* max-width: fit-content; */
+  width:25rem;
+  text-align: center;
+  margin: auto;
+}
+
+.image {
+  padding-right: 1.2rem;
+  padding-bottom: 2rem;
+  /* margin-left: 1rem; */
+}
+
+
+
+@media screen and(max-width: 375px){
+  body{
+    background-color: hsl(216, 12%, 8%);
+    margin: 1rem;
+    
+  }
+  
+  .main-box{
+    background-color: hsl(213, 19%, 18%);
+   padding: 1rem;
+   margin-top: 10rem;
+   /* height: 20rem; */
+   width: 100%;
+   /* max-width: fit-content; */
+   border-radius: 2rem;
+   /* margin: auto; */
+   /* align-items: center; */
+  }
+  
+  .text h1 {
+    color: white;
+    /* margin-top: 1rem; */
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  
+  }
+  
+  .text p {
+    color: hsl(216, 12%, 54%);
+    /* margin-top: 1rem; */
+    /* font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal; */
+  }
+  
+  #submit-btn {
+    width: 95%;
+    /* padding: 0.7rem; */
+    background-color: hsl(25, 97%, 53%);
+    border: none;
+    border-radius: 2rem;
+    color: white;
+    /* margin-top: 1rem; */
+    /* margin-bottom: 4rem; */
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  #number1{
+    background-color: hsl(216, 12%, 54%);
+    border-radius: 16rem;
+  
+  }
+  
+  
+  .button-container button {
+    width:40px;
+    height: 40px;
+    border-radius: 100%;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(200, 4%, 14%);
+    color: hsl(217, 12%, 63%);
+    border: none;
+    box-shadow: none;
+    cursor: pointer;
+    margin-top: 1rem;
+  
+  }
+  
+  .button-container{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 10px;
+    margin-top: 1rem;
+  
+    
+  }
+  
+  .star {
+    width: 35px;
+    height: 35px;
+    border-radius: 100%;
+    background-color: hsl(200, 4%, 14%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .btn:focus {
+    background-color:  hsl(217, 12%, 63%);
+    color: white;
+    cursor: pointer;
+  }
+  
+  .btn:hover {
+    background-color:  hsl(25, 97%, 53%);
+    color: white;
+    cursor: pointer;
+  }
+  
+  #submit:hover {
+    background-color: white;
+    color:  hsl(25, 97%, 53%);
+    cursor: pointer;
+  }
+  
+  #select{
+    color: hsl(25, 97%, 53%);
+    padding: 0.7rem;
+    background-color: hsl(200, 4%, 14%);
+    border: none;
+    border-radius: 2rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    margin-left: 3rem;
+    margin-right: 4rem;
+    margin-bottom: 1.1rem;
+    
+  }
+  
+  .thanks h1{
+    color: white;
+    /* padding-left: 7rem; */
+    padding-bottom: 1.1rem;
+    /* margin-right: 7rem; */
+  }
+  
+  .thanks p {
+   color: hsl(216, 12%, 54%);
+   text-align: center;
+  }
+  
+  .second-container{
+    background-color: hsl(213, 19%, 18%);
+    padding: 2rem;
+    /* height: 20rem; */
+    /* width: 20rem; */
+    border-radius: 2rem;
+    /* display: none; */
+    margin-top: 1rem;
+    max-width: fit-content;
+    /* text-align: center;
+    margin: auto; */
+  }
+  
+  .image {
+    padding-right: 1.2rem;
+    padding-bottom: 2rem;
+    /* margin-left: 1rem; */
+  }
+  
+}
